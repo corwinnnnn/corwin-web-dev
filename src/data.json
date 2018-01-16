@@ -1,0 +1,20 @@
+{
+    "profile": {
+        "name": "Corwin Ruggiero",
+        "blurb": "I am a young artist from Lunenburg, MA with a focus in animation looking to make everyone a little happier.",
+        "imageMain": "./static/corwinMain.jpg"
+    },
+    "config": {
+
+    },
+    "posts": [
+        {
+            "id": 1,
+            "title": "A Watercolor Tree",
+            "mainImage": "./static/artwork/1_tree.jpg",
+            "blurb": "A simple watercolor tree I made some time ago.",
+            "tags": ["watercolor", "tree"]
+        }
+
+    ]
+}
