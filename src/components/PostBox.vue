@@ -1,11 +1,11 @@
 <template>
 <div class="postbox">
-    <div v-for="post in posts" :key="post.id">
-        <Post
+    <div class="post" v-for="post in posts" :key="post.id">
+      <Post
             :title="post.title"
             :blurb="post.blurb"
-            :mainImage="post.mainImage"
-        />            
+            :mainArt="post.mainArt"
+        />        
     </div>
 </div>
 </template>
@@ -16,23 +16,46 @@ import Post from './Post'
 export default {
   name: 'PostBox',
   components: {
-        Post
+    Post
   },
   props: [
     'showFirst',
     'posts'
-  ]
+  ],
+  ready: function () {
+
+  },
+  beforeDestroy: function () {
+
+  },
+  mounted: function () {
+
+  },
+  methods: {
+    reDraw: function () {
+
+    }
+  }
+
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .postbox {
-    width: 30%;
+  
+    display: inline-block;
+
+    flex: 1 auto;
+    display: flex;
+
+justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+      flex-flow: row wrap;
+
 }
-img {
-  width: 30%;
-}
+
 h1, h2 {
   font-weight: normal;
 }
@@ -46,5 +69,20 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.postFlex {
+    width: 30%;
+
+  /* flex: 1 auto; */
+  margin: auto;
+}
+
+.post {
+}
+
+.masonry-container {
+  margin: 0 auto;
+  width: 100%;
 }
 </style>

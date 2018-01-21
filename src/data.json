@@ -11,9 +11,93 @@
         {
             "id": 1,
             "title": "A Watercolor Tree",
-            "mainImage": "./static/artwork/1_tree.jpg",
+            "mainArt": { "uri": "./static/artwork/1_tree.jpg", "img": true},
             "blurb": "A simple watercolor tree I made some time ago.",
             "tags": ["watercolor", "tree"]
+        },
+        {
+            "id": 2,
+            "title": "Some Watercolor Sour Grapes",
+            "mainArt": { "uri": "./static/artwork/2_sour-grapes.jpg", "img": true},
+            "blurb": "Some sour grapes I made some time ago.",
+            "tags": ["watercolor", "grapes"]
+        },
+        {
+            "id": 3,
+            "title": "A Worn Pair of Watercolor Shoes",
+            "mainArt": { "uri": "./static/artwork/3_shoes.jpg", "img": true},
+            "blurb": "These weren't really made for walking.",
+            "tags": ["watercolor", "shoe"]
+        },
+        {
+            "id": 4,
+            "title": "Watercolor Shapes",
+            "mainArt": { "uri": "./static/artwork/4_shapes.jpg", "img": true},
+            "blurb": "Technically everything I've done in watercolor simplifies to watercolor shapes, this is just more specific.",
+            "tags": ["watercolor", "shapes"]
+        },
+        {
+            "id": 5,
+            "title": "A Watercolor Seaside",
+            "mainArt": { "uri": "./static/artwork/5_seaside.jpg", "img": true},
+            "blurb": "Who doesn't want to spend a day by the sea?",
+            "tags": ["watercolor", "ocean"]
+        },
+        {
+            "id": 6,
+            "title": "Watercolor Landscape",
+            "mainArt": { "uri": "./static/artwork/6_landscape.jpg", "img": true},
+            "blurb": "Another simple exercise is watercolor.",
+            "tags": ["watercolor", "landscape"]
+        },
+        {
+            "id": 7,
+            "title": "Watercolor Iron",
+            "mainArt": { "uri": "./static/artwork/7_iron.jpg", "img": true},
+            "blurb": "My clothes were looking a bit wrinkly, but I think you're supposed to fill the iron with water, not make it out of water(color).",
+            "tags": ["watercolor", "iron"]
+        },
+        {
+            "id": 8,
+            "title": "Watercolor Beach",
+            "mainArt": { "uri": "./static/artwork/8_beach.jpg", "img": true},
+            "blurb": "Being on the seaside was so nice I decided to get a little closer to the water.",
+            "tags": ["watercolor", "ocean"]
+        },
+        {
+            "id": 9,
+            "title": "Boatcano!",
+            "mainArt": { "uri": "./static/artwork/9_boatcano.jpg", "img": true},
+            "blurb": "Take cover, this boat is going blow!",
+            "tags": ["sculpture", "boat", "volcano"]
+        },
+        {
+            "id": 11,
+            "title": "Lamppost and Friend",
+            "mainArt": { "uri": "./static/artwork/11_lamppost-1.jpg", "img": true},
+            "blurb": "My lamppost sculpture found a friend and decided to hang around with them.",
+            "tags": ["sculpture", "lamp"]
+        },
+        {
+            "id": 12,
+            "title": "Lamppost and Friend pt. 2",
+            "mainArt": { "uri": "./static/artwork/12_lamppost-2.jpg", "img": true},
+            "blurb": "A rear view of my lamppost and their buddy.",
+            "tags": ["sculpture", "lamp"]
+        },
+        {
+            "id": 13,
+            "title": "A Letter Transforms!",
+            "mainArt": { "uri": "./static/artwork/13_5_to_G_redo.mp4", "img": false},
+            "blurb": "This letter has a special magic trick to share with everyone!",
+            "tags": ["2d", "animation"]
+        },
+        {
+            "id": 14,
+            "title": "Personified Milk",
+            "mainArt": { "uri": "./static/artwork/14_Animation_redo.mp4", "img": false},
+            "blurb": "This milk feels like walking, and that's just what it'll do.",
+            "tags": ["2d", "animation"]
         }
 
     ]

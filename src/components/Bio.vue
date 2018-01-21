@@ -1,5 +1,6 @@
 <template>
-  <div class="bio card">
+<div class="bio">
+  <div class="card">
     <img :src="image" @mouseover="hover = true" @mouseout="hover = false"/>
     
     <div class="details container">
@@ -7,6 +8,7 @@
       <p class="blurb"> {{ blurb }} </p>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -60,12 +62,20 @@ h1, h2 {
   font-weight: normal;
 } */
 
+.bio {
+  /* min-width: 320px; */
+  /* width: 30%; */
+  max-width: 480px;
+  /* flex: 1 auto; */
+  margin: auto;
+}
+
 .card {
   background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
     border-radius: 5px;
+    height: auto;
 }
 
 .card:hover {
