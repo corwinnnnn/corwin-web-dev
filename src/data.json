@@ -98,7 +98,83 @@
             "mainArt": { "uri": "./static/artwork/14_Animation_redo.mp4", "img": false},
             "blurb": "This milk feels like walking, and that's just what it'll do.",
             "tags": ["2d", "animation"]
+        },
+        {
+            "id": 15,
+            "title": "Onion, Frustrated",
+            "mainArt": { "uri": "./static/artwork/15_onion_frustrated.jpg", "img": true},
+            "blurb": "Grr",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 16,
+            "title": "Onion, Embarrassed",
+            "mainArt": { "uri": "./static/artwork/16_onion_embarrassed.jpg", "img": true},
+            "blurb": "Aw geez...",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 17,
+            "title": "Onion, Scared",
+            "mainArt": { "uri": "./static/artwork/17_onion_scared.jpg", "img": true},
+            "blurb": "Boo!",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 18,
+            "title": "Onion, Sad",
+            "mainArt": { "uri": "./static/artwork/18_onion_sad.jpg", "img": true},
+            "blurb": "What could possibly make an onion cry?",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 19,
+            "title": "Onion, Iconic",
+            "mainArt": { "uri": "./static/artwork/19_teapot.jpg", "img": true},
+            "blurb": "Channeling their inner teapot",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 20,
+            "title": "Onion meets Cat",
+            "mainArt": { "uri": "./static/artwork/20_stroboscopic.png", "img": true},
+            "blurb": "Meow!",
+            "tags": ["comic", "onion", "cat"]
+        },
+        {
+            "id": 21,
+            "title": "Onion Origins",
+            "mainArt": { "uri": "./static/artwork/21_originstory.png", "img": true},
+            "blurb": "What a shame.",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 22,
+            "title": "Scared of the dark",
+            "mainArt": { "uri": "./static/artwork/22_storyboard.png", "img": true},
+            "blurb": "The woods are scary when you're all alone.",
+            "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 23,
+            "title": "Abandoned",
+            "mainArt": { "uri": "./static/artwork/23_environment_city.png", "img": true},
+            "blurb": "Old and decrepit",
+            "tags": ["comic", "city", ""]
+        },
+        {
+            "id": 24,
+            "title": "Forest Scene",
+            "mainArt": { "uri": "./static/artwork/24_environment_forest.png", "img": true},
+            "blurb": "A campsite?",
+            "tags": ["comic", "forest", ""]
+        },
+        {
+            "id": 25,
+            "title": "Encounter",
+            "mainArt": { "uri": "./static/artwork/25_comicandtext6flat.png", "img": true},
+            "blurb": "Someone isn't very welcoming.",
+            "tags": ["comic", "onion", ""]
         }
-
     ]
 }
