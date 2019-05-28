@@ -175,6 +175,169 @@
             "mainArt": { "uri": "./static/artwork/25_comicandtext6flat.png", "img": true},
             "blurb": "Someone isn't very welcoming.",
             "tags": ["comic", "onion", ""]
+        },
+        {
+            "id": 26,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/26_page23.png", "img": true},
+            "blurb": "page 23",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 27,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/27_page22.png", "img": true},
+            "blurb": "page 22",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 28,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/28_page21.png", "img": true},
+            "blurb": "page 21",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 29,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/29_page20.png", "img": true},
+            "blurb": "page 20",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 30,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/30_page19.png", "img": true},
+            "blurb": "page 19",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 31,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/31_page18.png", "img": true},
+            "blurb": "page 18",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 32,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/32_page17.png", "img": true},
+            "blurb": "page 17",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 33,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/33_page16.png", "img": true},
+            "blurb": "page 16",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 34,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/34_page15.png", "img": true},
+            "blurb": "page 15",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 35,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/35_page14.png", "img": true},
+            "blurb": "page 14",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 36,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/36_page13.png", "img": true},
+            "blurb": "page 13",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 37,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/37_page12.png", "img": true},
+            "blurb": "page 12",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 38,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/38_page11.png", "img": true},
+            "blurb": "page 11",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 39,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/39_page10.png", "img": true},
+            "blurb": "page 10",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 40,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/40_page9.png", "img": true},
+            "blurb": "page 9",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 41,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/41_page8.png", "img": true},
+            "blurb": "page 8",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 42,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/42_page7.png", "img": true},
+            "blurb": "page 7",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 43,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/43_page6.png", "img": true},
+            "blurb": "page 6",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 44,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/44_page5.png", "img": true},
+            "blurb": "page 5",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 45,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/45_page4.png", "img": true},
+            "blurb": "page 4",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 46,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/46_page3.png", "img": true},
+            "blurb": "page 3",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 47,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/47_page2.png", "img": true},
+            "blurb": "page 2",
+            "tags": ["comic", "CDT", ""]
+        },
+        {
+            "id": 48,
+            "title": "Carnaval de Tours",
+            "mainArt": { "uri": "./static/artwork/48_page1.png", "img": true},
+            "blurb": "page 1",
+            "tags": ["comic", "CDT", ""]
         }
+    ]
+}
     ]
 }
