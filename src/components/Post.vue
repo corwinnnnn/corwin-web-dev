@@ -1,10 +1,12 @@
 <template>
   <div class="post card">
-    <img class="art" v-if="mainArt.img" :src="mainArt.uri"/>
-    <video class="art" v-if="!mainArt.img" autoplay loop controls  onloadstart="this.volume=0;">
-      <source :src="mainArt.uri" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>  
+    <a :href="mainArt.uri">
+      <img class="art" v-if="mainArt.img" :src="mainArt.uri"/>
+      <video class="art" v-if="!mainArt.img" autoplay loop controls  onloadstart="this.volume=0;">
+        <source :src="mainArt.uri" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </a>
     <div class="details container">
       <h1 class="title">{{ title }}</h1>
       <p class="blurb"> {{ blurb }} </p>

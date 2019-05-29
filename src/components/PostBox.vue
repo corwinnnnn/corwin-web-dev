@@ -5,7 +5,7 @@
             :title="post.title"
             :blurb="post.blurb"
             :mainArt="post.mainArt"
-        />        
+        />
     </div>
 </div>
 </template>
@@ -44,16 +44,12 @@ export default {
 <style scoped>
 
 .postbox {
-  
-    display: inline-block;
-
-    flex: 1 auto;
-    display: flex;
-
-justify-content: center; /* center items vertically, in this case */
-    align-items: center;     /* center items horizontally, in this case */
-      flex-flow: row wrap;
-
+  display: inline-block;
+  flex: 1 auto;
+  display: flex;
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  flex-flow: row wrap;
 }
 
 h1, h2 {
