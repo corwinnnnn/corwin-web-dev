@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="box">
-    <Bio 
+    <Bio
       :name="profile.name"
       :blurb="profile.blurb"
       :imageMain="profile.imageMain"
@@ -52,7 +52,7 @@ export default {
 .box {
   display: flex;
   flex-flow: row wrap;
-  
+
   /* Then we define how is distributed the remaining space */
   justify-content: space-around;
   width: 100%;
