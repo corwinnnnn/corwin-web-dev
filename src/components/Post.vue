@@ -1,17 +1,15 @@
 <template>
-  <div class="post card">
-    <a :href="mainArt.uri">
-      <img class="art" v-if="mainArt.img" :src="mainArt.uri"/>
-      <video class="art" v-if="!mainArt.img" autoplay loop controls  onloadstart="this.volume=0;">
-        <source :src="mainArt.uri" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </a>
-    <div class="details container">
-      <h1 class="title">{{ title }}</h1>
-      <p class="blurb"> {{ blurb }} </p>
-    </div>
+<div class="post card">
+  <img class="art" v-if="mainArt.img" v-lazy="mainArt.uri" />
+  <video class="art" v-if="!mainArt.img" autoplay loop controls  onloadstart="this.volume=0;">
+    <source :src="mainArt.uri" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="details container">
+    <h1 class="title">{{ title }}</h1>
+    <p class="blurb"> {{ blurb }} </p>
   </div>
+</div>
 </template>
 
 <script>
@@ -30,18 +28,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 h1, h2 {
   font-weight: normal;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
@@ -61,6 +61,7 @@ a {
 .art {
     border-radius: 5px 5px 0 0;
     width: 100%;
+    cursor: url("/static/res/plus.png") 25 25, auto;
 }
 
 .container {
