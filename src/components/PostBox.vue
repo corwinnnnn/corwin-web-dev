@@ -10,13 +10,16 @@
       </div>
   </div>
   <div v-if="overlay" class="overlay" >
-    <div class="overlay-left" @click="overlayPrevious"></div>
-    <div class="overlay-right" @click="overlayNext"></div>
+
+    <div class="overlay-left-bottom" @click="overlayPrevious"></div>
+    <div class="overlay-right-bottom" @click="overlayNext"></div>
     <img class="overlay-art" v-if="posts[overlayIndex].mainArt.img" :src="posts[overlayIndex].mainArt.uri" v-on:click="closeOverlay" />
     <video class="overlay-art" v-if="!posts[overlayIndex].mainArt.img" autoplay loop controls  onloadstart="this.volume=0;">
       <source :src="posts[overlayIndex].mainArt.uri" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <div class="overlay-left-top" @click="overlayPrevious"></div>
+    <div class="overlay-right-top" @click="overlayNext"></div>
   </div>
 </div>
 </template>
@@ -131,27 +134,48 @@ a {
 
 .overlay-art {
     height: 100%;
-    max-width: 95%;
+    z-index: 2;
     cursor: url("/static/res/x.png") 25 25, auto;
 }
 
-.overlay-left {
+.overlay-left-top {
   position: fixed;
-  left: 0;
-  right: 50%;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 70%;
+  z-index: 3;
+  cursor: url("/static/res/arrow-left.png") 25 25, auto;
+}
+
+.overlay-left-bottom {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
   z-index: -1;
   cursor: url("/static/res/arrow-left.png") 25 25, auto;
 }
 
-.overlay-right {
+.overlay-right-top {
   position: fixed;
-  left: 50%;
-  right: 0;
   top: 0;
   bottom: 0;
+  left: 70%;
+  right: 0;
+  z-index: 3;
+  cursor: url("/static/res/arrow-right.png") 25 25, auto;
+}
+
+.overlay-right-bottom {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
   z-index: -1;
   cursor: url("/static/res/arrow-right.png") 25 25, auto;
 }
+
 </style>
