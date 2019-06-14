@@ -5,10 +5,9 @@ import App from './App'
 import VueLazyload from 'vue-lazyload'
 
 Vue.use(VueLazyload, {
-  preLoad: 2
-  // error: 'dist/error.png',
-  // loading: 'dist/loading.gif',
-  // attempt: 1
+  preLoad: 2,
+  loading: 'static/res/flowerpot_loader.gif',
+  attempt: 2
 })
 
 Vue.config.productionTip = false
