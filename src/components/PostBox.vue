@@ -133,7 +133,8 @@ a {
 }
 
 .overlay-art {
-    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
     z-index: 2;
     cursor: url("/static/res/x.png") 25 25, auto;
 }
